@@ -31,12 +31,12 @@ while True:
         num2 = float(input("Ingresa el segundo número: "))
 
         if opcion == "suma":
-            print("Resultado: ", suma(num1, num2))
+            print("Resultado de la suma es : ", suma(num1, num2))
         elif opcion == "resta":
-            print("Resultado: ", resta(num1, num2))
+            print("Resultado de la resta es : ", resta(num1, num2))
         elif opcion == "multiplicacion":
-            print("Resultado: ", multiplicacion(num1, num2))
+            print("Resultado de la multiplicacion es : ", multiplicacion(num1, num2))
         elif opcion == "division":
-            print("Resultado: ", division(num1, num2))
+            print("Resultado de la división es : ", division(num1, num2))
     else:
         print("Opción no válida. Inténtalo de nuevo.")
