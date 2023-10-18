@@ -1,0 +1,27 @@
+par=0
+impar=0
+n= int (input())
+vector=[]
+pares=[]
+impares=[]
+for i in range (n):
+    numero= int(input("numero "))
+    vector.append(numero)
+    if numero%2 == 0:
+        pares.append(numero)
+        par=par+numero
+    else:
+        impares.append(numero)
+        impar=impar+numero
+print("suma pares",par)
+print("suma impares",impar)
+if len(pares) > 0:
+    parespromedio=par/(len(pares))
+    print("promedio pares",parespromedio)
+else:
+    print("no existe el promedio de los pares")
+if len(impares)>0:
+    imparespromedio=impar/(len(impares))
+    print("promedio impares", imparespromedio)
+else:
+    print(" no existe el promedio de los impares"
